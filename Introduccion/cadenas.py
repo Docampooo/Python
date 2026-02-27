@@ -78,3 +78,12 @@ print(precio)
 precio = f"El coste ha cambiado, ahora es de {num / 2} dolares"
 
 print(precio)
+
+price = 49
+txt = f"It is very {'Expensive' if price>50 else 'Cheap'}"
+
+print(txt)
+
+#indices nombrados 
+myorder = "I have a {carname}, it is a {model}."
+print(myorder.format(carname = "Ford", model = "Mustang"))

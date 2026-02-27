@@ -119,3 +119,25 @@ print(" - - - ")
 fruits = ["apple", "banana", "cherry"]
 
 print("banana" in fruits)
+
+#valores nulos
+result = None
+if result is None:
+  print("No result yet")
+else:
+  print("Result is ready")
+
+
+#prueba de inputs 
+bandera = True
+while bandera:
+     
+    print("Dentro!")
+
+    try:
+        num = float(input("introduce un numero  "))
+        bandera = False
+    except:
+        print("mal mal")
+    
+print("fuera")
