@@ -113,3 +113,10 @@ for i in range(len(lista) - 1, -1, -1):
         del lista[i]
 
 print(lista)
+
+adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+
+for x in adj:
+  for y in fruits:
+    print(x, y)
